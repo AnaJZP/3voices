@@ -1,0 +1,4 @@
+group_1,group_2,z_statistic,p_value,p_adjusted,significance
+academic,political,-6.2035,5.52108862583087e-10,1.6563265877492611e-09,***
+academic,public,13.8638,1.0493223797641147e-43,3.1479671392923444e-43,***
+political,public,7.7355,1.0296450761121927e-14,3.088935228336578e-14,***

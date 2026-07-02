@@ -1,0 +1,8 @@
+﻿Metric,Value
+Nodes,100.0
+Edges,4917.0
+Density,0.9933
+Avg clustering coefficient,0.0188
+Diameter,2.0
+Modularity (Louvain),0.0762
+Communities,4.0

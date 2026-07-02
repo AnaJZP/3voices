@@ -1,0 +1,4 @@
+﻿group_1,group_2,n_1,n_2,mean_1,mean_2,cliffs_delta,ci_lower,ci_upper,interpretation,dunn_z,p_adj
+academic,institutional,11741,281,0.5677,0.8105,-0.6061,-0.6795,-0.5257,large,-16.5619,3.9408569566771176e-61
+academic,public,11741,3210,0.5677,0.5273,0.1597,0.1354,0.1831,small,13.6701,4.596399368308732e-42
+institutional,public,281,3210,0.8105,0.5273,0.6288,0.5521,0.7036,large,20.4468,1.922699217079117e-92

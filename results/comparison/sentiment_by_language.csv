@@ -1,0 +1,4 @@
+source,U_statistic,p_value,effect_size_r,n1,n2,significance
+academic,31695896.0,0.0,inf,4884,6694,***
+political,,,,32,0,ns
+public,,,,0,0,ns

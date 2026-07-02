@@ -1,0 +1,58 @@
+# ─────────────────────────────────────────────────────────────────────
+# requirements.txt — VOZ_SUS: Tres Voces de la Sustentabilidad
+# ─────────────────────────────────────────────────────────────────────
+# Instalar con:  pip install -r requirements.txt
+# Se recomienda usar un entorno virtual (venv o conda).
+# ─────────────────────────────────────────────────────────────────────
+
+# ── APIs y recolección de datos ──────────────────────────────────────
+google-api-python-client>=2.100.0     # YouTube Data API v3
+youtube-transcript-api>=0.6.1         # Transcripciones de YouTube
+pyalex>=0.14                          # Cliente de OpenAlex (literatura académica)
+
+# ── DataFrames y manejo de datos ─────────────────────────────────────
+pandas>=2.1.0
+polars>=0.20.0
+numpy>=1.24.0
+
+# ── Modelado de tópicos (BERTopic) ──────────────────────────────────
+bertopic>=0.16.0
+sentence-transformers>=2.2.0          # Embeddings multilingües
+umap-learn>=0.5.4                     # Reducción de dimensionalidad
+hdbscan>=0.8.33                       # Clustering
+
+# ── NLP y análisis de sentimiento ────────────────────────────────────
+transformers>=4.35.0                  # Modelos de Hugging Face
+torch>=2.1.0                          # PyTorch (CPU) — ver nota abajo
+pysentimiento>=0.7.0                  # Sentimiento para español
+spacy>=3.7.0                          # Lematización y POS tagging
+langdetect>=1.0.9                     # Detección de idioma
+
+# ── Redes y grafos ──────────────────────────────────────────────────
+networkx>=3.1
+pyvis>=0.3.2                          # Visualización interactiva de redes
+
+# ── Visualización ───────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+wordcloud>=1.9.2
+kaleido>=0.2.1                        # Export de gráficos Plotly a PNG/PDF
+
+# ── Estadística y machine learning ──────────────────────────────────
+scipy>=1.11.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# ── Utilidades ──────────────────────────────────────────────────────
+tqdm>=4.66.0                          # Barras de progreso
+loguru>=0.7.0                         # Logging con formato
+
+# ─────────────────────────────────────────────────────────────────────
+# NOTA: Para instalar PyTorch solo para CPU (ahorra espacio):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#
+# Después de instalar requirements.txt, descargar modelos de spaCy:
+#   python -m spacy download es_core_news_sm
+#   python -m spacy download en_core_web_sm
+# ─────────────────────────────────────────────────────────────────────

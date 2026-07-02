@@ -1,0 +1,33 @@
+﻿group,topic_id,topic_name,count,total_docs,prevalence_pct
+combined,0,0_research_environment_earth_energy,8442,14983,56.34
+combined,1,1_world_great_important_strong,281,14983,1.88
+combined,2,2_said_media_well_positive,254,14983,1.7
+combined,3,3_points_point_said_good,219,14983,1.46
+combined,4,4_years ago_heart_life_name,217,14983,1.45
+combined,5,5_energy_research_example_two,199,14983,1.33
+combined,6,6_energy_power_future_idea,111,14983,0.74
+combined,7,7_heart_life_world_said,108,14983,0.72
+combined,8,8_current_future_energy_big,104,14983,0.69
+combined,9,9_said_positive_say_something,98,14983,0.65
+combined,10,10_research_common_example_10,77,14983,0.51
+academic,0,0_research_sostenible_investigación_sustainability,5016,11741,42.72
+academic,1,1_health_diseases_disease_outcomes,409,11741,3.48
+academic,2,2_circular economy_circular_sustainability_sostenibilidad,321,11741,2.73
+academic,3,3_rural_comunidades_economía_económicos,296,11741,2.52
+academic,4,4_19 pandemic_covid 19_pandemic_covid,268,11741,2.28
+academic,5,5_chemistry_computational_molecular_chemical,185,11741,1.58
+academic,6,6_recycling_waste_environmental_materials,167,11741,1.42
+academic,7,7_artificial intelligence_intelligence_artificial_educational,144,11741,1.23
+academic,8,8_synthesis_chemical_electron_organic,142,11741,1.21
+academic,9,9_media_sociales_social_societal,122,11741,1.04
+academic,10,10_literature review_research_investigación_researchers,117,11741,1.0
+academic,11,11_observations_temperature_spectral_magnitude,110,11741,0.94
+academic,12,12_políticas_conceptual_artículo_sociales,105,11741,0.89
+academic,13,13_databases_database_protein_molecular,79,11741,0.67
+academic,14,14_technologies_technology_network_technological,76,11741,0.65
+academic,15,15_energy_devices_ion_storage,69,11741,0.59
+academic,16,16_carbon_emissions_co2_climate change,65,11741,0.55
+academic,17,17_land_environmental_ecological_influences,55,11741,0.47
+academic,18,18_mobility_integración_international_research,55,11741,0.47
+academic,19,19_machine learning_big data_neural networks_datasets,51,11741,0.43
+academic,20,20_circular economy_industry_circular_sustainability,50,11741,0.43

@@ -1,0 +1,4 @@
+source,count,mean,std,median
+academic,11741,0.5677,0.169,0.53
+political,32,0.7833,0.1445,0.7994
+public,3210,0.5273,0.1961,0.4767

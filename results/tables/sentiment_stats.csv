@@ -1,0 +1,10 @@
+source,language,n_docs,mean_score,std_score,median_score,pct_negative,pct_neutral,pct_positive
+academic,ca,2,0.4489,0.0677,0.4489,0.0,0.0,100.0
+academic,en,4884,0.7295,0.1181,0.7512,5.0,82.02,12.98
+academic,es,6694,0.4518,0.0836,0.454,7.01,15.27,77.73
+academic,eu,1,0.3449,,0.3449,0.0,0.0,100.0
+academic,gl,3,0.5592,0.0541,0.5464,33.33,0.0,66.67
+academic,it,1,0.408,,0.408,100.0,0.0,0.0
+academic,pt,29,0.4322,0.0779,0.4225,6.9,13.79,79.31
+academic,ro,1,0.479,,0.479,0.0,0.0,100.0
+political,en,32,0.7833,0.1445,0.7994,6.25,25.0,68.75

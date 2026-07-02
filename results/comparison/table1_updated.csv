@@ -1,0 +1,4 @@
+﻿Voice,N_documents,Total_tokens,Mean_tokens,SD_tokens,Min_tokens,Max_tokens,Year_min,Year_max,Languages,Institutions
+Academic,13580,2460911,181.2,190.5,1,4793,2015.0,2026.0,"{'es': 7012, 'en': 6296, 'pt': 124, 'ca': 5, 'gl': 4, 'fr': 3, 'it': 2, 'ru': 1, 'de': 1, 'id': 1, 'ro': 1, 'nl': 1, 'eu': 1, 'el': 1}",
+Institutional,282,559656,1984.6,2389.8,1,19469,2015.0,2026.0,{'en': 281},"{'UK_Government': 228, 'World_Economic_Forum': 33, 'UNEP': 15, 'UN_Secretary_General': 6}"
+Public,6449,168702,26.2,38.9,1,644,,,{'en': 6449},

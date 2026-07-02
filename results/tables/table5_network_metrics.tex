@@ -1,0 +1,64 @@
+\begin{table}
+\caption{Semantic network metrics comparison}
+\label{tab:table5_network_metrics}
+\begin{tabular}{lccc}
+\toprule
+source & graph & metrics & matrix \\
+\midrule
+Academic Voice & Graph with 100 nodes and 3127 edges &            word  degree_centrality  ...  degree  weighted_degree
+0        social           1.000000  ...      99            33272
+1        global           1.000000  ...      99            20714
+2        sector           1.000000  ...      99            10110
+3         local           1.000000  ...      99             9165
+4        crisis           1.000000  ...      99             6901
+..          ...                ...  ...     ...              ...
+95  principales           0.535354  ...      53             6971
+96        marco           0.535354  ...      53             6732
+97  estrategias           0.535354  ...      53             6529
+98        medio           0.535354  ...      53             6321
+99     procesos           0.525253  ...      52             8064
+
+[100 rows x 8 columns] &              social  desarrollo  research  global  ...  medio  marco  public  dos
+social            0        1045       880     422  ...    226    267     362  203
+desarrollo     1045           0        13     306  ...    363    360       9  244
+research        880          13         0     270  ...      3      2     266    2
+global          422         306       270       0  ...     76     91     130   69
+development     629          52       708     504  ...      5      5     175    5
+...             ...         ...       ...     ...  ...    ...    ...     ...  ...
+literature      258           1       638      78  ...      0      0      57    1
+medio           226         363         3      76  ...      0     47       3   82
+marco           267         360         2      91  ...     47      0       2   76
+public          362           9       266     130  ...      3      2       0    4
+dos             203         244         2      69  ...     82     76       4    0
+
+[100 rows x 100 columns] \\
+Public Voice & Graph with 100 nodes and 2889 edges &        word  degree_centrality  ...  degree  weighted_degree
+0    people           1.000000  ...      99             3305
+1      like           1.000000  ...      99             2509
+2       one           0.979798  ...      97             1776
+3     world           0.959596  ...      95             1944
+4    change           0.949495  ...      94             2426
+..      ...                ...  ...     ...              ...
+95    heart           0.262626  ...      26              288
+96    hands           0.252525  ...      25              536
+97      fox           0.232323  ...      23              293
+98  michael           0.222222  ...      22              280
+99   folded           0.202020  ...      20              504
+
+[100 rows x 8 columns] &          people  like  climate  change  world  ...  real  come  fuels  making  needs
+people        0   146       90     116     85  ...    24    16     16      29     21
+like        146     0       75      72     60  ...    15    14      9      14     22
+climate      90    75        0     446     51  ...    23    13     18      12      5
+change      116    72      446       0     66  ...    19     7     15      20     13
+world        85    60       51      66      0  ...    10    12     16       9     18
+...         ...   ...      ...     ...    ...  ...   ...   ...    ...     ...    ...
+real         24    15       23      19     10  ...     0     0      4       6      1
+come         16    14       13       7     12  ...     0     0      1       3      2
+fuels        16     9       18      15     16  ...     4     1      0       1      5
+making       29    14       12      20      9  ...     6     3      1       0      2
+needs        21    22        5      13     18  ...     1     2      5       2      0
+
+[100 rows x 100 columns] \\
+\bottomrule
+\end{tabular}
+\end{table}
